@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('./robots.webp') bottom no-repeat;
+    background-size: cover;  
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.terminal {
+    background: rgba(22, 10, 41, 0.699);
+    flex: 2;
+    margin: auto;
+    box-shadow: 0 0 0 10px rgba(22, 10, 41, 0.329);
+    padding: 10px;
+
+}
+
+.score {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 180px;
+    color: white;
+}
+
+.human-score {
+    color: aqua;
+    text-shadow: 3px 3px 5px rgb(161, 213, 243), -3px -3px 5px rgb(161, 213, 243);
+}
+
+.computer-score {
+    color: rgb(173, 20, 0);
+    text-shadow: 3px 3px 7px rgba(248, 133, 79, 0.932), -3px -3px 5px rgba(248, 133, 79, 0.932);
+}
+
+.display {
+    margin: 0;
+    background: rgba(6, 43, 54, 0.562);
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(219, 250, 219, 0.822), -1px -1px 3px rgba(219, 250, 219, 0.822);
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    line-height: 40px;
+}
+
+p.user {
+    color: aqua;
+    text-shadow: 1px 1px 3px rgb(161, 213, 243), -1px -1px 3px rgb(161, 213, 243);
+}
+
+p.computer {
+    color: rgb(207, 35, 12);
+    text-shadow: 1px 1px 3px rgba(248, 133, 79, 0.932), -1px -1px 3px rgba(248, 133, 79, 0.932);
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-option {
+    flex: 1;
+    background: rgba(7, 47, 66, 0.719);
+    color: white;
+    font-size: 20px;
+    outline: 0;
+    border: 1px solid rgba(13, 5, 26, 0.473);
+    letter-spacing: 0.3rem;
+    padding: 10px;
+}
+
+.user-option:hover {
+    box-shadow: 3px 3px 10px rgba(23, 126, 109, 0.767);
+    color: rgba(1, 218, 200, 0.938);
+}
+
+.user-option:active {
+
+    box-shadow: 3px 3px 10px rgba(215, 236, 21, 0.555), -3px -3px 10px rgba(215, 236, 21, 0.555);
+    color: rgb(237, 243, 184);
+    transform: scale(1.01);
+}
+
