@@ -94,24 +94,3 @@ function playRound(playerSelection, computerSelection) {
             return ('Scissors cut paper! Well done user, you have so much luck ;)');
 }
 
-// function game(){
-//     let computerWins = 0, humanWins = 0;
-    
-//     for(let i = 0; i<5; i++){
-//         const result = playRound(prompt('Your choice: '), getComputerChoice());
-//         console.log(result);
-//         if(result.includes("humanity") || result.includes("user"))
-//             humanWins++;
-//         else if(!result.includes("Tie"))
-//             computerWins++;
-//     }
-
-//     if(humanWins > computerWins)
-//         console.log("Congratulations are in order, it looks you saved human civilization today. Until next time!");
-//     else if(humanWins == computerWins)
-//         console.log("We're on equal footing... for now, human.");
-//     else
-//         console.log("Prepare to become bateries.");
-    
-
-// }
